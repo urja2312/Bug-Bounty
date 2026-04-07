@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "C:\Users\VALLARI SHARMA\Desktop\cybersec\bug-bounty-platform\backend\app\factory.py", line 23, in <module>
+    from user.routes import router as user_router
+  File "C:\Users\VALLARI SHARMA\Desktop\cybersec\bug-bounty-platform\backend\app\user\routes.py", line 13, in <module>
+    from core.dependencies import CurrentUser
+  File "C:\Users\VALLARI SHARMA\Desktop\cybersec\bug-bounty-platform\backend\app\core\dependencies.py", line 30, in <module>
+    from .security import decode_access_token
+  File "C:\Users\VALLARI SHARMA\Desktop\cybersec\bug-bounty-platform\backend\app\core\security.py", line 9, in <module>
+    from datetime import (
+ImportError: cannot import name 'UTC' from 'datetime' (C:\Users\VALLARI SHARMA\AppData\Local\Programs\Python\Python310\lib\datetime.py)
